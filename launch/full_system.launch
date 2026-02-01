@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="mavros" type="mavros_node" name="mavros"/>
+  <node pkg="rplidar_ros" type="rplidarNode" name="lidar"/>
+  <node pkg="object_detection_node" type="detector_node.py" name="detector"/>
+</launch>
