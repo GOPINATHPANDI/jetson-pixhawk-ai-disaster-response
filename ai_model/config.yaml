@@ -1,0 +1,7 @@
+model:
+  path: ai_model/onnx/model.onnx
+  input_size: [640, 640]
+
+thresholds:
+  confidence: 0.5
+  nms: 0.45
